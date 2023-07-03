@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Fale Conosco"
+        android:id="@+id/menu1"/>
+    <item android:title="GitHub"
+        android:id="@+id/Menu2"/>
+    <item android:title="Instagram"
+        android:id="@+id/menu3"/>
+    <item android:title="Linkedin"
+        android:id="@+id/menu4"/>
+
+
+</menu>

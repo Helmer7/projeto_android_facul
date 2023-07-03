@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="73dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textColor="#2ECC71"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:text="Nos Apoie" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="110dp" />
+
+        <ImageView
+            android:id="@+id/qr"
+            android:layout_width="match_parent"
+            android:layout_height="298dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/qrbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFEB3B"
+            android:text="QR For patron"
+            app:backgroundTint="#2ECC71"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
